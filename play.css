@@ -1,0 +1,784 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.sonybar{
+    background-color: black;
+    font-size: 0;
+    height: 36px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+   
+}
+.sonylogo{
+    display: inline-block;
+    height: 100%;
+   
+}
+.sonylogo img{
+    width: 89px;
+    margin: 0 8px;
+    position: relative;
+    bottom: 23px
+}
+.promo h1{
+    position: relative;
+    bottom: 464px;
+    color: white;
+    padding-left: 162px;
+}
+.promo p{
+    position: relative;
+    color: white;
+    bottom: 420px;
+    font-size: larger;
+    padding-left: 162px;
+}
+.promo button{
+    background-color: #ffffff;
+    color: #0a0a0a;
+    position: relative;
+    bottom: 400px;
+    height: 32px;
+    border-radius: 41px;
+    font-weight: bolder;
+    font-size: larger;
+    width: 142px;
+    left: 162px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    padding: 0px 1.25rem
+}
+
+
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.leftside button1{
+    position: relative;
+    top: 60px;
+}
+.navbar{
+    height: 79px;
+}
+.navbar img{
+    height: 40px;
+    position: relative;
+    top: 38px;
+    width: 42px;
+    padding-left: 30px;
+    border-color: blue;
+}
+.navbar button1{
+    position: relative;
+    top: 26px;
+    left: 735px;
+   
+    font-size: 20px;
+    color: white;
+    background-color: lightblue;
+    border-radius: 18px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: 768px;
+    top: 27px;
+    font-size: x-large;
+}
+.btnc button{
+    position: absolute;
+    left: 1317px;
+    color: white;
+    background-color: #007;
+    border-radius: 56px;
+    height: 15px;
+    padding-top: 11px;
+    top:41px;
+}
+
+
+.navbar button{
+    position: relative;
+    top: 23px;
+    left: 39px;
+    padding: 23px;
+    background-color: transparent;
+    /* margin-block-start: 32px; */
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.promo img{
+   width:100%;
+    
+}
+.promounder
+{
+    
+    display: flex;
+    justify-content:space-between;
+}
+.hhello{
+    display: flex;
+    justify-content: space-around;
+    width: 162px;
+    height: 134px;
+    border-radius: 81px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hhello{
+    padding: 50px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 221px;
+    height: 116px;
+    margin: 0 au;
+}
+.hhello:hover{
+    transform: scale(1.5);
+}
+.console img{
+    height: 689px;
+    width: 813px;
+    position: relative;
+    right: 156px;
+    top: 48px;
+}
+
+.playtext{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 29px;
+    top: 369px;
+    font-family: Arial, sans-serif;
+    height: 579px;
+    background-color: #ffffff;
+}
+.playtext p{
+   
+    position: relative;
+    left: 0px;
+    top: -15px;
+}
+
+
+.playtext button{
+    border-radius: 45px;
+    width: 94px;
+    height: 28px;
+    color: white;
+    background-color: #0070cc;
+    border:none;
+    font-weight: bold;
+    font: bold;
+    cursor: pointer;
+}
+.container{
+   display: flex;
+    border: #0070cc;
+}
+
+
+
+.container img {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.hhello1{
+    display: flex;
+    justify-content: space-around;
+    width: 162px;
+    height: 134px;
+    border-radius: 81px;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+}
+.hhello1{
+    padding: 50px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 221px;
+    height: 116px;
+    margin: 0 au;
+}
+.hhello1:hover{
+    transform: scale(1.5);
+}
+.hhello p{
+    position: relative;
+    top:20px;
+}
+.header{
+    display: flex;
+}
+.console{
+    display: flex;
+    height: 771px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.console{
+    display: flex;
+    flex-direction: row;
+}
+.bigimg{
+    position: relative;
+    left: 350px;
+    bottom: 53px;
+}
+.info{
+    width: 416px;
+    position: relative;
+    top: 141px;
+}
+
+.info p{
+    position: relative;
+    top: 25px;
+    font-size: larger;
+}
+.info button{
+    border-radius: 26px;
+    position: relative;
+    top: 52px;
+    width: 87px;
+    height: 29px;
+    color: white;
+    background-color:#0070cc;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.games{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 245px;
+}
+.games img{
+    display: flex;
+    justify-content: space-around;
+    width: 162px;
+    height: 134px;
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 14px;
+
+}
+
+.games img{
+    padding: 50px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 175px;
+    height: 118px;
+}
+.games img:hover{
+    transform: scale(1.5);
+}
+.games h3{
+    display: flex;
+    justify-content: space-around;
+    width: 162px;
+    height: 134px;
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 14px;
+
+
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.plus{
+    background-color: #ffffff;
+    width: 100%;
+    height: 520px;
+}
+.plus img{
+    width: 1520px;
+    height: 520px;
+    /* margin-top: 22px; */
+
+}
+.yellow img{
+    width: 299px;
+    height: 62px;
+    position: relative;
+    bottom: 486px;
+}
+.castle{
+    background-color: #bd2727;
+    width: 100%;
+    height: 520px;
+}
+.castle img{
+    width: 1520px;
+    height: 603px;
+}
+
+.y2 img{
+    width: 1520px;
+    height: 520px;
+}
+.y1 img{
+    width: 299px;
+    height: 62px;
+    position: relative;
+    bottom: 460px;
+    padding-left: 155px;
+}
+.y1 h2{
+    
+    position: relative;
+    bottom: 420px;
+    padding-left: 144px;
+
+}
+.pic img{
+    width: 513px;
+    height: 412px;
+    position: relative;
+    left: 821px;
+    bottom: 602px;
+}
+.castle button{
+    
+    color: white;
+    border-radius: 29px;
+    width: 134px;
+    height: 32px;
+    bottom: 385px;
+    position: relative;
+    left: 75px;
+    background-color: black;
+    cursor: pointer;
+}
+.castle h2{
+    position: relative;
+    bottom: 444px;
+    padding-left: 79px;
+    color: white;
+    font-size: xx-large;
+}
+.castle p{
+    position: relative;
+    bottom: 423px;
+    padding-left: 79px;
+    color: white;
+    font-size: x-large
+}
+.y5{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 356px;
+}
+.y5 img{
+    width: 235px;
+    height: 125px;
+    border-radius: 50px;
+
+}
+.y5 h3{
+  color: white;
+}
+.section{
+
+    color:#ffffff;
+
+}
+.god img{
+    padding-top: 82px;
+    width: 1521px;
+}
+.god1 img{
+   
+    width: 450px;
+    position: relative;
+    bottom: 540px;
+    padding-left: 127px;
+}
+.god1 h3{
+    position: relative;
+    bottom: 532px;
+    color: white;
+    padding-left: 125px;
+    font-size: xx-large;
+}
+.god1 p{
+    position: relative;
+    bottom: 499px;
+    padding-left: 127px;
+    color: white;
+    font-size: x-large;
+}
+.god1 button{
+    color: white;
+    background-color: red;
+    font-size: x-large;
+    border-radius: 15px;
+    width: 119px;
+    font-weight: bold;
+    position: relative;
+    bottom: 492px;
+    padding-left: -39px;
+    left: 123px;
+    margin-top: 12px;
+    cursor: pointer;
+    border: none;
+}
+.collection{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    bottom: 352px;
+}
+.cog h3{
+    color: white;
+    font-size: 27px;
+    padding-left: 42px;
+
+}
+.cog p{
+    color: white;
+    padding-left: 28px;
+    font-size: xx-large;
+}
+.steam{
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.steam img{
+
+    width: 200px;
+    padding: 25px;
+    height: 200px;
+    border-radius: 62px;
+    cursor: pointer;
+
+}
+.y1 button{
+    position: relative;
+    bottom: 379px;
+    left: 146px;
+    color: white;
+    background-color: #0070cc;
+    border-radius: 30px;
+    height: 40px;
+    width: 166px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.explore{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 611px;
+    position: relative;
+    bottom: 353px;
+
+}
+.exp h2{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+}
+.exp h3{
+    display: flex;
+    justify-content: center;
+}
+.d1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.d3 img{
+    width:450px;
+    height: 400px;
+}
+.d3 button{
+    width: 150px;
+    height: 34px;
+    border-radius: 54px;
+    border: none;
+    color:#ffffff;
+    background-color:#0070cc;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    left: 90px;
+    cursor: pointer;
+}
+.d3 h1{
+    position: relative;
+  
+    left: 90px;
+
+}
+.d3 h4{
+    position: relative;
+   
+    left: 90px;
+}
+.carding
+{
+   
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 611px;
+    position: relative;
+    bottom: 334px;
+}
+.cardingtxt{
+    width:35%;
+
+}
+.cardingtxt button{
+    border-radius: 15px;
+    height: 36px;
+    width: 109px;
+    position: relative;
+    top: 91px;
+    left: 51px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+.cardingtxt h1{
+    position: relative;
+    top: 50px;
+    left: 53px;
+}
+.cardingtxt p{
+    position: relative;
+    top: 66px;
+    left: 53px;
+    font-size: x-large;
+    color: rgb(6, 6, 6);
+    font-weight: 500;
+}
+.cardingtxt img{
+    width: 339px;
+    position: relative;
+    top: 53px;
+    left: 26px;
+}
+
+.cardur img{
+    width: 762px;
+    height: 500px;
+    float: right;
+    position: relative;
+    bottom: 250px;
+}
+.blog{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 411px;
+   
+
+}
+
+  
+   .blog h1{
+    position: relative;
+    left: 532px;
+    padding-top: 96px;
+    font-size: xx-large;
+    font-family: monospace;
+   }
+
+.vlog
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 100%;
+    height: 581px;
+}
+.vlog2 img{
+    width: 417px;
+    padding: 48px;
+    height: 339px;
+
+}
+.vlog h2{
+    position: relative;
+    left: 41px;
+}
+.vlog p{
+    position: relative;
+    left: 50px;
+    padding-top: 15px;
+}
+
+.social{
+    background-color: #ffffff;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 270px;
+
+}
+.social h1
+{
+    color: rgb(9, 9, 9);
+    position: relative;
+    left: 534px;
+    padding-top: 68px;
+}
+
+
+.fa-twitter{
+    width:20px;
+    cursor: pointer;
+}
+.social1{
+    display: flex;
+    cursor: pointer;
+
+}
+.plot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social3 img{
+    display: flex;
+    justify-content: center;
+    width: 174px;
+    position: relative;
+    left: 362px;
+    padding-top: 40px;
+
+}
+.footer{
+    position: relative;
+    top: 410px;
+    background-color: #00439c;
+    height: 800px;
+    width: 100%;
+}
+.footertxt h3{
+    display: inline-block;
+    position: relative;
+    right:40px;
+    top: 49px;
+}
+
+
+.footertxt img {
+    position: relative;
+    left: 47px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 25px;
+    cursor: pointer;
+
+}
+.fa-globe{
+    
+   
+    position: relative;
+    top: 52px;
+    right:40px;
+    font-size: 24px;
+}
+.footer77{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: white;
+    float: right;
+    position: relative;
+    right: 600px;
+    cursor: pointer;
+}
+.footer99{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    float: right;
+    position: relative;
+    right: 23px;
+    cursor: pointer;
+    
+
+}
+.footer111{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: white;
+    float: right;
+    position: relative;
+    left: 374px;
+    cursor: pointer;
+    
+}
+.sonyinfo img{
+    width: 206px;
+    position: relative;
+    top: 228px;
+}
+.sonyinfo p{
+    width: 598px;
+    position: relative;
+    top: 228px;
+    color: white;
+}
+y5 img{
+    cursor: pointer;
+}
+.y5 h3{
+    cursor: pointer;
+}
+.info h2{
+    position: relative;
+    left:60px;
+}
+.info p{
+    position: relative;
+    left:60px;
+}
+.info button{
+    position: relative;
+    left:60px;
+}
